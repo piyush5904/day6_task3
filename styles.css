@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: url('https://i.imgur.com/KbRrjJt.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.login-box {
+  background: rgba(0, 0, 0, 0.7); /* Transparent black */
+  width: 350px;
+  padding: 40px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.login-box h2 {
+  margin-bottom: 30px;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.login-box input[type="email"],
+.login-box input[type="password"] {
+  width: 100%;
+  padding: 12px 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+.checkbox {
+  text-align: left;
+  margin: 15px 0;
+  font-size: 13px;
+  color: #FFFFFF;
+}
+
+.checkbox a {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+
+.login-box button {
+  background: linear-gradient(to right, #f7b733, #fc4a1a); /* Yellow-Orange gradient */
+  color: white;
+  border: none;
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+.login-box button:hover {
+  opacity: 0.9;
+}
